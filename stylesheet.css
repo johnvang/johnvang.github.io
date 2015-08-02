@@ -1,34 +1,59 @@
-p {
-	line-height: 14px;
+body {
+	width: 1000px;
+	margin: 20px 40px 20px 40px;
+	font-family: arial, helvetica;
 }
 
-.contact {
-	border-bottom: 1px solid black;
+header {
+	border-bottom: 4px solid #000000;
+	margin: 0px;
 }
-.contact p {
-	line-height: 8px;
-	color: #777;
+
+header h1 {
+	font-family: times;
+	font-size: 40px;
+	line-height: 0px;
+	text-shadow: 1px 1px 2px;
+}
+
+header p {
+	margin: 10px;
+	font-size: 16px;
+	color: dimgray;
+	line-height: 10px;
+}
+
+article {
+	margin-right: 40px;
+}
+
+article h2 {
+	color: darkblue;
+}
+
+article h3 {
+	font-size: 20px;
+	color: darkred;
+	margin-bottom: 1px;
+}			
+
+article p {
+	margin: 0px 0px 0px 8px;
 }
 
 .date {
-	color: #555;
-}
-
-.school {
-	font-weight: bold;
+	font-style: italic;	
+	margin-bottom: 8px;
 }
 
 .position {
-	font-style: italic;
+	font-size: 18px;
+	font-weight: bold;
 	text-decoration: underline;
-	font-size: 16px;
 }
 
-.education {
-	font-size: 16px;
-}
-
-.references {
-	margin-top: 20px;
-	font-style: italic;
+footer {
+	margin-top: 40px;
+	text-align: center;
+	color: dimgray;
 }
